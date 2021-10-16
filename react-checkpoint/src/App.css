@@ -1,0 +1,60 @@
+input {
+  border: none;
+  background-color: lightgray;
+  height: 40px;
+}
+nav {
+  background-color: rgb(133, 131, 131);
+}
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+::placeholder {
+  font-size: 14px;
+  transform: translateX(5%);
+}
+.inputphone {
+  display: none;
+}
+.img2 {
+  width: 40px;
+}
+@media only screen and (max-width: 770px) {
+  .input {
+    display: none;
+  }
+  .inputphone {
+    display: flex;
+  }
+}
+.sec1 {
+  height: 300px;
+}
+aside {
+  height: 400px;
+}
+.count1 {
+  margin-top: 20px;
+}
+.count {
+  margin-top: 20px;
+}
+.count2 {
+  margin-top: 20px;
+}
+.secc {
+  height: 400px;
+}
+.seccc {
+  height: 400px;
+}
+.foo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.aa {
+  background-color: rgb(133, 131, 131);
+  margin-bottom: 20px;
+}
